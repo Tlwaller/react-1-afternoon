@@ -52,7 +52,7 @@ Let's begin by opening `src/components/TopicBrowser/TopicBrowser.js` and importi
 import React, { Component } from 'react';
 ```
 
-Now let's create a basic component that renders a `<p>` element that says "Hello World". We do this by saying `class TopicBrowser extends Component {}`. TopicBrowser is the name of the class, which can be anything you want, usually when dealing with classes it's common to see pascal case ( meaning the first letter is also captalized ). In React pascal case is required for the name of your class. If it is not pascal case the component will not mount or render in your application. Since this component is going to browse our topics, I went with the class name of TopicBrowser.
+Now let's create a basic component that renders a `<p>` element that says "Hello World". We do this by saying `class TopicBrowser extends Component {}`. TopicBrowser is the name of the class, which can be anything you want, usually when dealing with classes it's common to see pascal case ( meaning the first letter is also capitalized ). In React, pascal case is required for the name of your class. If it is not pascal case the component will not mount or render in your application. Since this component is going to browse our topics, I went with the class name of TopicBrowser.
 
 ```js
 class TopicBrowser extends Component {
@@ -205,7 +205,7 @@ In this step, we'll render all of our topics from the `Topics` folder, create th
 
 <br />
 
-Let's start by going into our Topics folder. Inside we will see 5 javascript files, inside these files we will create a React component that solves a certain computer science toy problem. The basic outline is going to be similiar across these components with the only difference being the `<p>` element that gets rendered.
+Let's start by going into our Topics folder. Inside we will see 5 javascript files, inside these files we will create a React component that solves a certain computer science toy problem. The basic outline is going to be similar across these components with the only difference being the `<p>` element that gets rendered.
 
 Creating a React component:
 * `import React, { Component } from 'react'`
@@ -322,7 +322,7 @@ export default class TopicBrowser extends Component {
 }
 ```
 
-Now that they are imported into our `TopicBrowser` component we can render them in our `return`. Similiar to how we rendered `TopicBrowser` in `App.js` we'll wrap each component we imported in `< />`. Since we are trying to `render` more than component we'll have to wrap the components in a `div`. The `return` of a `render` method can only return one element, but there is no limit to how much you can nest in that one element. Your `TopicBrowser` should look like:
+Now that they are imported into our `TopicBrowser` component we can render them in our `return`. Similar to how we rendered `TopicBrowser` in `App.js` we'll wrap each component we imported in `< />`. Since we are trying to `render` more than component we'll have to wrap the components in a `div`. The `return` of a `render` method can only return one element, but there is no limit to how much you can nest in that one element. Your `TopicBrowser` should look like:
 
 ```js
 import React, { Component } from 'react';
@@ -480,7 +480,7 @@ export default class Sum extends Component {
 
 ### Summary
 
-In the following steps it's important to understand that there is more than one way to solve a toy problem; if your solution doesn't match mine that's okay. Also, since the following 5 components are very similiar in their structure, only step 3's detailed instructions go into great detail. The other steps after that won't go into much detail.
+In the following steps it's important to understand that there is more than one way to solve a toy problem; if your solution doesn't match mine that's okay. Also, since the following 5 components are very similar in their structure, only step 3's detailed instructions go into great detail. The other steps after that won't go into much detail.
 
 In this step, we'll start with the first topic: `EvenAndOdd`.
 
