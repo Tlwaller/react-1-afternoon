@@ -18,7 +18,7 @@ export default class EvenAndOdd extends Component {
     solve(userInput) {
         let oddNums = [];
         let evenNums = [];
-        let arr = [...userInput];
+        let arr = userInput.split(',');
         for(let i = 0; i < arr.length; i++) {
             if(arr[i] % 2 === 0) {
                 evenNums.push( parseInt(arr[i], 10) );
